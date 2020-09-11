@@ -1,4 +1,4 @@
-# not-not-code-sandbox
+# not-code-sandbox
 
 ## Description
 
