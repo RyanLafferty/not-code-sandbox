@@ -2,7 +2,7 @@
 
 ## Description
 
-The following a quick POC I created to replicate functionality seen in online code runners such as codesandbox.
+The following is a quick proof of concept that I created to replicate functionality seen in online code runners such as codesandbox.
 
 ## Technologies
 
