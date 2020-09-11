@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+  not-code-sandbox-api:
+    container_name: not-code-sandbox-api-dev
+    build:
+      context: .
+      dockerfile: ./config/api/Dockerfile
+    environment:
+      PORT: 8081
+      SANDBOX_DIR: '/sandbox'
+    ports:
+      - "8081:8081"
+  not-code-sandbox-client:
+    container_name: not-code-sandbox-client-dev
+    build:
+      context: .
+      dockerfile: ./config/client/Dockerfile
+    environment:
+      PORT: 8080
+    ports:
+      - "8080:8080"
